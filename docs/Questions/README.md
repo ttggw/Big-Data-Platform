@@ -33,7 +33,7 @@
 
 8. DataNode和NameNode进程同时只能工作一个。
 
-![image-20220501185532462](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220501185532462.png)
+![image-20220501185532462](../imgs/7.png)
 
 9. jps发现进程已经没有，但是重新启动集群，提示进程已经开启。
 

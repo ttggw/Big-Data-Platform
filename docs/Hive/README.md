@@ -153,7 +153,7 @@ sidebar: auto
    [chronus@hadoop102 log]$ sudo cat /var/log/mysqld.log 
    ```
 
-    ![image-20220507112349971](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220507112349971.png)
+    ![image-20220507112349971](../imgs/8.png)
 
 8. 启动MySQL服务
 
@@ -354,7 +354,7 @@ sidebar: auto
 
 6. 看到如下界面就可以了
 
-   ![image-20220507115508185](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220507115508185.png)
+   ![image-20220507115508185](../imgs/9.png)
 
 ## 七、编写Hive服务启停脚本
 

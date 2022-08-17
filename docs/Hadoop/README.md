@@ -16,15 +16,15 @@ sidebar: auto
 
 #### VMware 虚拟网络配置
 
- ![image-20220430193009748](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220430193009748.png)
+ ![image-20220430193009748](../imgs/1.png)
 
- ![image-20220430193226326](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220430193226326.png)
+ ![image-20220430193226326](../imgs/2.png)
 
 #### Windows 网络适配器设置
 
 控制面板 网络和Internet 网络链接，右键VMnet8，选择属性，点击IPV4，按下图设置：
 
- ![image-20220430193614778](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220430193614778.png)
+ ![image-20220430193614778](../imgs/3.png)
 
 #### Hadoop100配置网络
 
@@ -32,7 +32,7 @@ sidebar: auto
 
 在root中输入`vim /etc/sysconfig/network-scripts/ifcfg-ens33`
 
- ![image-20220430194209333](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220430194209333.png)
+ ![image-20220430194209333](../imgs/4.png)
 
 #### 修改主机名及映射
 
@@ -75,7 +75,7 @@ hadoop100
 
 ​	**注意**：在执行yum命令时，可能会出现pid被锁定的情况，如下图
 
-![image-20220430202501756](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220430202501756.png)
+![image-20220430202501756](../imgs/5.png)
 
 ​	此时，只需要kill该进程，输入`kill -9 pid`，其中pid为具体进程ID
 
@@ -485,7 +485,7 @@ drwxr-xr-x. 4 chronus chronus     31 9月  12 2019 share
    [chronus@hadoop102 ~]$ ls -al
    ```
 
-    ![image-20220501145050326](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220501145050326.png)
+    ![image-20220501145050326](../imgs/6.png)
 
    ```shell
    [chronus@hadoop102 ~]$ cd .ssh/

@@ -37,7 +37,7 @@ sidebar: auto
 
 启动Scala确认安装成功
 
- ![image-20220511222849953](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220511222849953.png)
+ ![image-20220511222849953](../imgs/10.png)
 
 输入:q退出
 
@@ -80,7 +80,7 @@ sidebar: auto
 
    如果出现如下界面，则安装成功
 
-    ![image-20220511223739728](C:\Users\Chronus\AppData\Roaming\Typora\typora-user-images\image-20220511223739728.png)
+    ![image-20220511223739728](../imgs/11.png)
 
 ### 3 PySpark
 
