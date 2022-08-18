@@ -1,21 +1,33 @@
 module.exports = {
-    title: "How To Build Your Hadoop Cluster",
+    title: "ISME PROJECT",
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Downloads', link: '/Download/' },
         {
-            text: 'Buid',
+            text: 'Hadoop Clusters',
             ariaLabel: 'Buid Guidence',
             items: [
-              { text: 'Hadoop', link: '/Hadoop/' },
-              { text: 'HBase', link: '/HBase/' },
-              { text: 'Hive', link: '/Hive/' },
-              { text: 'Spark', link: '/Spark/' },
+              // { text: 'Hadoop', link: '/Build/Hadoop/' },
+              // { text: 'HBase', link: '/Build/HBase/' },
+              // { text: 'Hive', link: '/Build/Hive/' },
+              { text: 'Intro', link: '/Introduction/' },
+              { text: 'Build', items: [
+                { text: 'Versions', link: '/Download/' },
+                { text: 'Hadoop', link: '/Hadoop/' },
+                { text: 'HBase', link: '/HBase/' },
+                { text: 'Hive', link: '/Hive/' },
+                { text: 'Spark', link: '/Spark/' },
+              ] },
+              { text: 'Guide', items: [
+                { text: 'Hadoop', link: '/GHadoop/' },
+                { text: 'HBase', link: '/GHBase/' },
+                { text: 'Hive', link: '/GHive/' },
+                { text: 'Spark', link: '/GSpark/' },
+              ] }
             ]
           },
         { text: 'Q&A', link: '/Questions/'},
-        { text: 'External', link: 'https://google.com' },
+        { text: 'GitHub', link: 'https://github.com/ttggw' },
       ]
     },
     head: [
@@ -29,5 +41,6 @@ module.exports = {
       ],
       // ["link", { rel: "stylesheet", href: "/css/style.css" }], //
       ["script", { charset: "utf-8", src: "/js/disable-user-zoom.js" }] // 移动端,禁止用户缩放,引入你写的js
-    ]
+    ],
+    base: '/'
   }
